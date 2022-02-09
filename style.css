@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+img{
+  width: 200px;
+  border-radius: 50%
+}
+
+.shadowed{
+  box-shadow: 5px 5px 3px black;
+}
+
+
+h1{
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  padding: 15px;
+}
+
+p{
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  color: #26575a;
+}
+
+a{
+  color: #51bfc5;
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #999999;
+  display: block;
+  margin: 8px;
+}
+
+ul{
+  color: #51bfc5;
+}
+
+
+.card_first{
+  background-color: white;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.title{
+  background-color: #26575a;
+  height: 70px;
+}
+
+.white_card{
+  padding: 40px;
+}
+
+.icons{
+  list-style: none;
+  padding: 0px;
+}
+
+.icons li a i:hover{
+  color: blue;
+}
+.icons li{
+  display: inline-block;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.skils{
+  list-style: square;
+}
+
+.container{
+  width: 800px;
+  margin: 20px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
